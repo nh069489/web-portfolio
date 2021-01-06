@@ -1,72 +1,50 @@
 body{
+    font-family: 'Lato', sans-serif; 
     margin:0;
-    font-family: 'Poppins', sans-serif;
+    line-height:25px;
+    text-align:center;
 }
-h1{
-    font-size:50px;
 
-}
-h2{
-    font-size:40px;
-}
-p{
-
-}
-.name-highlight{
-    color:orange;
-}
-.half-width{
-    width:40%;
-    float:left;
-    margin-left:5%;
-}
-.half-width img{
-    width:100%
-}
-.top-banner{
-    border:1px solid red;
-    background-image:url("images/top-banner.png");
-    background-repeat:no-repeat;
+span{
+    color:indianred;
 }
 section{
     height:500px;
+    border:5px solid blue transparent;
 }
-.link-button{
-    text-decoration:none;
-    background-image: linear-gradient(45deg,lightSalmon, tomato);
-    background-color:orange;
-    padding:10px 20px;
-    border-radius:5px;
-    color:white;
-    font-weight:700;
+#sec1{
+    background-image:url(images/dream-bg.png);
+    background-repeat:no-repeat;
+}
+.half-width{
+    width: 45%;
+    margin-left: 0;;
+    text-align: center;
+    float:left;
+}
+img{
+    float:right;
+    height:350px;
+    height:350px;
+}
+a{
+    text-decoration: none;
+    color:aqua;
+    background-image:linear-gradient(90deg, cyan,tomato);
+    padding:5px;
+    border-radius: 2px;
+}
+.exp1, .exp2{
+    width:45%;
+    float:left;
+    border: 10px  solid rgba(128, 128, 128, 0.466);
+    border-left-color:10px solid linear-gradient(180deg,yellow,rgba(0, 128, 0, 0.74));
+    margin-left:2%;
+    border-radius:10px;
+    background-image:linear-gradient(rgba(238, 130, 238, 0.801),rgba(255, 166, 0, 0.719));
+    height:200px;
 
 }
-.dream-area{
-    background-image:url(images/my-bg.png);
-    background-repeat:no-repeat;
-    background-position:right;
-}
-.single-experience{
-    box-shadow:10px 10px 40px gray;
-    border-radius:5px;
-    height:80%;
-}
-.experience-area{
-    background-image:url("images/exp-bg.png");
-    background-repeat:no-repeat;
-    background-position:left;
-}
-#full-stack{
-    border-left:7px solid;
-    border-image:linear-gradient(180deg,lightsalmon,tomato);
-    border-image-slice:1;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg,blue,cyan);
-    border-image-slice:1;
-}
 footer{
-    text-align:center;
     font-size:10px;
 }
